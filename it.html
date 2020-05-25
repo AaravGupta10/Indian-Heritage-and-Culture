@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./images/favicon-16x16.png" type="image/png">
+  <title>IHC</title>
+</head>
+<body>
+  <div class="main">
+    <nav class="navbar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <svg width="30" height="30">
+              <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+              <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+              <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+          </svg>
+        </a>
+      </span>
+
+      <ul class="navbar-nav">
+        <li><a href="#" class="heading">Indian Heritage and Culture</a></li>
+        <div class="topnavbar-link">
+          <a href="./index.html">Home</a>
+          <a href="./topics.html">Topics</a>
+          <a href="./about.html">About</a>
+        </div>
+      </ul>
+    </nav>
+
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <a href="./index.html">Home</a>
+      <a href="./topics.html">Topics</a>
+      <a href="./about.html">About</a>
+    </div>
+
+    <div id="main-it">
+      <h1 class="topic-heading">How AI has helped the health sector in showing the benefits of ancient yoga, meditation, and exercise in today's world?</h1>
+      <div class="topic-container">
+          <section class="section">
+              <h2 class="section-heading">How AI works?</h2>
+              <div id="section-it-1">
+                <article>Artificial Intelligence is a field of computer science that deals with the intelligence manifested by machines. AI solves complex problems and takes decisions by statistically analyzing data.</article>
+                <figure><img src="./images/ai.png" alt=""></figure>
+                <article>AI(especially a subset of AI called Machine Learning/ML) can be used to classify things and make decisions accordingly through a program called classifier. For eg., there is a classifier to detect different asanas of yoga - It will first be given labeled data, which will be a set of photos of asanas labeled with the type. Then based on the graph of asanas and the name of asanas, the program will try to create an algorithmic formula. Then it will be training data to train the model and improve its classification. Then finally it will be given some test data to test whether it's working properly or not. (Note that this can be also done using deep learning and posture recognition but in this example we have used machine learning.)</article>
+                <figure><img src="./images/ml.jpg" alt=""></figure>
+                <article>Deep Learning (a subset of ML) works similarly to how our brain works. Deep Learning works by sending information through hundreds of thousands of computational neurons (which are like the thousands of neurons present in our brain), so that a relationship can be found between the variables and a decision can be taken.  It is also called a neural network and consists of an input layer that is composed of artificial input neurons, and brings the initial data into the system for further processing by subsequent layers of artificial neurons called the hidden layers. The output layer is the last layer of neurons that produces given outputs for the program.</article>
+                <figure><img src="./images/dl.jpg" alt=""></figure>
+              </div>       
+          </section>
+          <section class="section">
+            <h2 class="section-heading">How clinical trials/studies are conducted using AI?</h2>
+            <div id="section-it-3">
+              <article>
+                Let's take an example for understanding how clinical studies are conducted - A study conducted to see whether yoga improves heart health.
+                <ul>
+                  <br>
+                  <li>A hypothesis is set based on which the study will be conducted, like - Yoga improves heart health.</li>
+                  <br>
+                  <li>Then certain categories are set based on which the clinical trial or study is to be conducted, like – male and female, or different age groups.</li>
+                  <br>
+                  <li>Blood pressure, blood cholesterol and blood glucose levels, as well as heart rate, is monitored after and before doing yoga on the different categories set.</li>
+                  <br>
+                  <li>There is no need for collecting lots of data as with lesser amounts of data also, the AI programs can identify patterns and predict whether the hypothesis is correct or not.</li>
+                  <br>
+                  <li>The data is processed by pre-trained AI models.</li>
+                  <br>
+                </ul>
+              </article>
+              <figure><img src="./images/clinicaltrials.jfif" width="484px" height="auto" alt=""></figure>
+            </div>       
+          </section>
+          <section class="section">
+            <h2 class="section-heading">A study on how meditation helps in curing stress, anxiety, etc. and can be used as a cognitive therapy, by Harvard University.</h2>
+            <div id="section-it-2">
+              <article>A study conducted by Harvard University shows that meditation can help in curing stress, anxiety, depression, chronic pain, and much more. Meditation can also be used as a cognitive therapy. This is how the study was performed -</article>
+              <figure><img src="./images/harvard.png" alt=""></figure>
+              <article>Functional magnetic resonance imaging (fMRI), which not only takes pictures of the brain, as a regular MRI does, but also records brain activity occurring, during the scan was used to take before and after scans of subjects who did a 2-month meditation course.  The subjects were scanned not only when they were meditating but also when they were performing everyday tasks. It was noticed that after learning meditation the amygdala, a part of the brain that controls emotions, was found to be activated less. This decreases stress, anxiety, and depression.</article>
+              <figure><img src="./images/photoscan.jfif" alt=""></figure>
+              <article>This study was only possible because of AI which was used in fMRI that was used to scan the subjects and also in most of the data collecting and processing.</article>
+              <figure><iframe width="484" height="272" src="https://www.youtube.com/embed/XwZwVIMP8Fs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+            </div>       
+        </section>
+      </div>
+    </div>
+  </div>
+  <footer>© 2020-21 Indian Heritage and Culture</footer>
+  <script src="./script.js"></script>
+</body>
+</html>
