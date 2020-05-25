@@ -188,7 +188,7 @@ figure {
   padding: 10px;
 }
 
-.intro {
+.intro, .about {
   padding: 20px;
   font-size: 30px;
 }
